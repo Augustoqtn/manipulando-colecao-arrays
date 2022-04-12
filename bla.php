@@ -17,16 +17,18 @@ $notas = [
 
 function ordenaNotas(array $nota1, array $nota2): int
 {
-    if ($nota1['Nota'] > $nota2['Nota']) {
-        return -1;
-    }
-
-    if ($nota2['Nota'] > $nota1['Nota']) {
-        return 1;
-    }
-
-    return 0;
+    return $nota2['Nota'] <=> $nota1['Nota'];
 }
+
+// if ($nota1['Nota'] > $nota2['Nota']) {
+//     return -1;
+// }
+
+// if ($nota2['Nota'] > $nota1['Nota']) {
+//     return 1;
+// }
+
+// return 0;
 
 usort($notas, 'ordenaNotas');
 var_dump($notas);

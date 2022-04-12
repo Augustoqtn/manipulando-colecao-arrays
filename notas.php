@@ -1,13 +1,13 @@
 <?php
 
 $notas = [
-    8,
-    7,
-    9,
-    5,
-    10
+    'Augusto' => 8,
+    'Ricardo' => 7,
+    'Marcelo' => 9,
+    'Babaca'  => 5,
+    'Cleitinho' => 10
 
 ];
 
-rsort($notas);
+arsort($notas);
 var_dump($notas);

@@ -9,5 +9,5 @@ $notas = [
 
 ];
 
-asort($notas);
+arsort($notas);
 var_dump($notas);

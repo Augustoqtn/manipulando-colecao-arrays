@@ -21,3 +21,11 @@ var_dump(array_is_list($notas));
 echo "fez aprova?" . PHP_EOL;
 
 var_dump(isset($notas['Augusto']));
+
+echo "alguém tirou 3?" . PHP_EOL;
+
+var_dump(in_array(3, $notas));
+
+// array_key_exists = verifica se a chave exite;
+// in_array = verifica se o valor existe;
+// isset = verifica se a chave existe e não é nula.

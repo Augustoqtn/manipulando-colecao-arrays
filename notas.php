@@ -22,9 +22,16 @@ echo "fez aprova?" . PHP_EOL;
 
 var_dump(isset($notas['Augusto']));
 
-echo "alguém tirou 3?" . PHP_EOL;
+echo "alguém tirou 10?" . PHP_EOL;
 
-var_dump(in_array(3, $notas, true));
+var_dump(in_array(10, $notas, true));
+
+echo "quem tirou 10?" . PHP_EOL;
+
+echo array_search(10, $notas);
+
+
+
 
 // array_key_exists = verifica se a chave exite;
 // in_array = verifica se o valor existe;

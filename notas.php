@@ -1,7 +1,7 @@
 <?php
 
 $notas = [
-    'Augusto' => 8,
+    'Augusto' => null,
     'Ricardo' => 7,
     'Marcelo' => 9,
     'Babaca'  => 5,
@@ -20,4 +20,4 @@ var_dump(array_is_list($notas));
 
 echo "fez aprova?" . PHP_EOL;
 
-var_dump(array_key_exists('Augusto', $notas));
+var_dump(isset($notas['Augusto']));

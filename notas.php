@@ -24,7 +24,7 @@ var_dump(isset($notas['Augusto']));
 
 echo "alguém tirou 3?" . PHP_EOL;
 
-var_dump(in_array(3, $notas));
+var_dump(in_array(3, $notas, true));
 
 // array_key_exists = verifica se a chave exite;
 // in_array = verifica se o valor existe;

@@ -17,6 +17,6 @@ $notasBimestre2 = [
 
 ];
 
-//                     (só leva as chaves em consideracao)
+//                     (só leva as chaves e os valores em consideracao)
 //             array a ser comparado     arrays para comparar
-var_dump(array_diff_key($notasBimestre1, $notasBimestre2));
+var_dump(array_diff_assoc($notasBimestre1, $notasBimestre2));

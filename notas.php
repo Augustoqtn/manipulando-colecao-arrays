@@ -17,3 +17,7 @@ if (is_array($notas)) {
 }
 
 var_dump(array_is_list($notas));
+
+echo "fez aprova?" . PHP_EOL;
+
+var_dump(array_key_exists('Augusto', $notas));

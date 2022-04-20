@@ -17,5 +17,6 @@ $notasBimestre2 = [
 
 ];
 
+//                     (só leva o valor em consideracao)
 //             array a ser comparado     arrays para comparar
 var_dump(array_diff($notasBimestre1, $notasBimestre2));
